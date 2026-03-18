@@ -1,10 +1,10 @@
-# 🛡️ Vikingos - Sistema de Expediciones
+# Vikingos - Sistema de Expediciones
 
 Este proyecto modela un sistema de gestión de expediciones vikingas, permitiendo representar vikingos, castas sociales, lugares a invadir y la lógica asociada a la toma de decisiones y reparto de botín.
 
 ---
 
-## 📚 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - C#
 - .NET
@@ -12,7 +12,7 @@ Este proyecto modela un sistema de gestión de expediciones vikingas, permitiend
 
 ---
 
-## 🧱 Estructura del proyecto
+## Estructura del proyecto
 
 ParcialVikingos │ ├── Vikingos          → Biblioteca de clases (modelo del dominio) └── Vikingos.Tests    → Tests unitarios con xUnit
 
@@ -35,7 +35,7 @@ Cada vikingo:
 
 ---
 
-### 🏛️ Castas
+### Castas
 
 - `Casta` (abstracta)
 - `Jarl`
@@ -49,7 +49,7 @@ Características:
 
 ---
 
-### 🌍 Lugares
+### Lugares
 
 - `Lugar` (abstracta)
 - `Capital`
@@ -62,7 +62,7 @@ Cada lugar:
 
 ---
 
-### ⚔️ Expediciones
+### Expediciones
 
 Una expedición:
 
@@ -76,7 +76,7 @@ Una expedición:
 
 ---
 
-## 🧪 Tests unitarios
+## Tests unitarios
 
 Se implementaron tests con **xUnit** para validar:
 
@@ -105,7 +105,7 @@ Se implementaron tests con **xUnit** para validar:
 
 ---
 
-## ▶️ Cómo ejecutar el proyecto
+## ▶Cómo ejecutar el proyecto
 
 ### 1. Restaurar dependencias
 
@@ -121,7 +121,7 @@ dotnet test
 
 ---
 
-## 🧠 Conceptos aplicados
+## Conceptos aplicados
 
 - Programación Orientada a Objetos (POO)
 - Herencia
@@ -144,7 +144,7 @@ Esto cumple con el principio **Open/Closed**:
 
 ---
 
-## 👤Autor
+## Autor
 
 Proyecto realizado como ejercicio integrador de modelado y testing en C# por Eric Aguirre de 6°7
 
